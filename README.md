@@ -55,7 +55,7 @@ supply or utility demand.
 
 ## Installation
 
-Assuming python ~3.7 and using git:
+Assuming python 3.11 and using git:
 
 ```
 git clone git@github.com:arup-group/pam.git
@@ -74,7 +74,7 @@ PAM uses some Python libraries that rely on underlying native geospatial librari
 
 | OS       | Commands |
 |----------|----------|
-|Mac OS    | `brew install spatialindex` <br/> `brew install gdal --HEAD` <br/> `brew install gdal` 
+|Mac OS    | `brew install spatialindex` <br/> `brew install gdal --HEAD` <br/> `brew install gdal`
 |Ubuntu    | `sudo apt install libspatialindex-dev` <br/> `sudo apt install libgdal-dev`|
 
 If you are using Anaconda to manage your environment, it will discover and install these native dependencies for you, as
@@ -91,7 +91,7 @@ If installation fails, we recommend to try the following code **using the Anacon
 git clone git@github.com:arup-group/pam.git
 
 # Create a conda environment
-conda create -n venv python=3.7
+conda create -n venv python=3.11
 
 # Check your Python version running python in your terminal
 conda activate venv
