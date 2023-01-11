@@ -4,7 +4,7 @@
 
 PAM is a python API for activity sequence modelling. Primary features:
 
-- common format read/write inccluding MATSim xml
+- common format read/write including MATSim xml
 - sequence inference from travel diary data
 - rules based sequence modification
 - sequence visualisation
@@ -260,10 +260,13 @@ Options:
   --help  Show this message and exit.
 
 Commands:
-  crop    Crop a population's plans outside a core area.
-  report  Various reporting for MATSim formatted plans.
-  sample  Down- or up-sample a PAM population.
-  combine Combine multiple populations into one xml file.
+  combine         Combine multiple populations (e.g.
+  crop            Crop a population's plans outside a core area.
+  report          Various reporting for MATSim formatted plans.
+  sample          Down- or up-sample a PAM population.
+  wipe-all-links  Clear all link information from agent plans.
+  wipe-links      Clear selected link information from agent plans.
+  wipe-routes     Clear all network route information from agent plans.
 ```
 
 For example:
